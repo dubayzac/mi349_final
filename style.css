@@ -1,0 +1,144 @@
+html {
+    background-color: #D1E1E2;
+}
+
+body {
+    font-family: Roboto Slab, sans-serif;
+}
+
+#container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+}
+
+#nav {
+    list-style-type: none;
+    overflow: hidden;
+    
+}
+
+#name {
+    font-size: 24px;
+}
+
+
+#hct {
+    list-style-type: none;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}
+
+#name, #hct {
+    padding: 0;
+    margin: 0;
+}
+
+#elevator {
+    text-align: center;
+    max-width: 300px;
+}
+
+#mantra {
+    font-size: 24px;
+}
+
+#mantra-info {
+    font-size: 16px;
+    padding: 10px;
+}
+
+
+#links {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    text-align: center;
+}
+
+#links nav {
+    padding: 10px;
+}
+
+#bottom-container {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+}
+
+#fit-keeper {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    max-width: 750px;
+}
+
+#description1 {
+    font-size: 16px;
+}
+
+#fit-img-container, #description1 {
+    padding: 20px;
+}
+
+#bams-boothies {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+    align-items: center;
+    max-width: 750px;
+}
+
+#description2 {
+    font-size: 16px;
+}
+
+#bams-img-container, #description2 {
+    padding: 20px;
+}
+
+#project-breakout {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    max-width: 750px;
+}
+
+#description3 {
+    font-size: 16px;
+}
+
+#breakout-img-container, #description3 {
+    padding: 20px;
+}
+
+#bottom-container2 {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#avatar-img-container {
+    padding: 40px;
+}
+
+#bio { 
+    padding: 20px;
+}
